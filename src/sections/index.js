@@ -10,7 +10,7 @@ import TrackingStats from "./TrackingStats";
 import WorkoutLibrary from "./WorkoutLibrary";
 import Footer from "./Footer";
 
-export (
+export {
     Hero,
     Achievements,
     Challenges, 
@@ -22,4 +22,4 @@ export (
     TrackingStats,
     WorkoutLibrary,
     Footer
-)
+}

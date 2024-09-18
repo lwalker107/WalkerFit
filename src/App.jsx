@@ -1,6 +1,18 @@
+import { Hero,
+Achievements,
+Challenges, 
+Community, 
+CustomWorkouts,
+Download,
+FitnessInfluencers,
+Testimonies,
+TrackingStats,
+WorkoutLibrary,
+Footer } from './sections'
+
 const App = () => (
     <main className='relative'> 
-      nav
+      {/* nav */}
       <section className='xl:padding-1 wide:padding-r 
       padding-b'>
         <Hero />
@@ -18,23 +30,23 @@ const App = () => (
         <FitnessInfluencers />
       </section>
       <section className='padding'>
-        Tracking stats
+        <TrackingStats />
       </section>
       <section className='padding'>
-        Challenges
+        <Challenges />
       </section>
       <section className='padding'>
-        Achievements
+        <Achievements />
       </section>
       <section className='bg-pale-blue padding'>
-        Testimonies
+        <Testimonies />
       </section>
       <section className='padding-x sm:py-32 py-16 w-full'>
-        Call to Action
+        <Download />
       </section>
       <section className='bg-black 
       padding-x padding-t pb-8'>
-        Footer
+        <Footer />
       </section>
     </main>
     
