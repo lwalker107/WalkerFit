@@ -3,22 +3,19 @@ const App = () => (
       nav
       <section className='xl:padding-1 wide:padding-r 
       padding-b'>
-        Hero
+        <Hero />
       </section>
       <section className='padding'>
-        Features
+        <WorkoutLibrary />
       </section>
       <section className='padding'>
-        Create custom workouts
+        <CustomWorkouts />
       </section>
       <section className='padding'>
-        Follow workout plans
+        <Community />
       </section>
       <section className='padding'>
-        Community
-      </section>
-      <section className='padding'>
-        Follow favorite fitness influencers
+        <FitnessInfluencers />
       </section>
       <section className='padding'>
         Tracking stats
@@ -28,6 +25,16 @@ const App = () => (
       </section>
       <section className='padding'>
         Achievements
+      </section>
+      <section className='bg-pale-blue padding'>
+        Testimonies
+      </section>
+      <section className='padding-x sm:py-32 py-16 w-full'>
+        Call to Action
+      </section>
+      <section className='bg-black 
+      padding-x padding-t pb-8'>
+        Footer
       </section>
     </main>
     
